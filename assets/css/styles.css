@@ -373,18 +373,7 @@ color: #FAFAFF;
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
 }
-.contact__button {
-  display: block;
-  background-color: var(--first-color);
-  color: var(--white-color);
-  padding: 0.75rem 2.5rem;
-  margin-left: auto;
-  border-radius: 0.5rem;
-  border: none;
-  outline: none;
-  font-size: var(--normal-font-size);
-  cursor: pointer;
-}
+
 
 /* ===== FOOTER=====*/
 .footer {
@@ -493,13 +482,8 @@ color: #FAFAFF;
     -moz-column-gap: 2rem;
          column-gap: 2rem;
   }
-  .contact__container {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-  }
-  .contact__form {
-    width: 380px;
-  }
+
+
   .footer__container {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
