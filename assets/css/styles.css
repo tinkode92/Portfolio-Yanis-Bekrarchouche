@@ -237,8 +237,7 @@ color: #FAFAFF;
       writing-mode: vertical-lr;
   transform: rotate(-180deg);
   color: var(--white-color);
-  margin-bottom: 10rem;
-    margin-left: 24rem;
+
 }
 .home__img {
   position: absolute;
@@ -492,6 +491,16 @@ color: #FAFAFF;
   .home__container { 
     height: 640px;
   }
+
+  .home__scroll-link {
+    -ms-writing-mode: tb-lr;
+        writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    color: var(--white-color);
+    margin-bottom: 10rem;
+      margin-left: 24rem;
+  }
+
   .home__img {
     width: 500px;
     right: 24%;
