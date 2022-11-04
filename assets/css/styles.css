@@ -220,6 +220,7 @@ color: #FAFAFF;
 .home__title {
   align-self: flex-end;
   font-size: 140px;
+  padding-bottom: 34vh;
   color: var(--white-color);
   line-height: 0.8;
   text-shadow: 0 20px 25px rgb(0 0 0 / 50%);
@@ -263,8 +264,8 @@ color: #FAFAFF;
 }
 .about__img img {
   height: 266px;
-  margin-top: -40px;
-
+  margin-top: -80px;
+  object-fit: contain;
 }
 .about__subtitle {
   font-size: var(--h2-font-size);
@@ -365,6 +366,10 @@ color: #FAFAFF;
   display: inline-block;
   margin-bottom: var(--mb-2);
 }
+.contact__text1 {
+  display: inline-block;
+  margin-bottom: var(--mb-2);
+}
 .contact__inputs {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -431,6 +436,11 @@ color: #FAFAFF;
     width: 230px;
   }
 
+  .section-title1 {
+    text-align: center;
+    font-size: 19px;
+    
+  }
   .droite-contact img {
     weight: 500px;
     height: 500px;
@@ -442,6 +452,11 @@ color: #FAFAFF;
 @media screen and (min-height: 375px) and (max-width: 900px) {
   .home__container {
     height: 640px;
+  }
+  .section-title1 {
+    text-align: center;
+    font-size: 19px;
+    
   }
   .home__img {
     width: 500px;
@@ -493,8 +508,8 @@ color: #FAFAFF;
   .home__title {
     align-self: flex-end;
     font-size: 50px;
-    /* transform: rotate(90deg); */
-    padding-bottom: 50vh;
+    transform: rotate(90deg);
+    padding-bottom: 34vh;
     color: var(--white-color);
     line-height: 0.8;
     text-shadow: 0 20px 25px rgb(0 0 0 / 50%);
@@ -519,6 +534,7 @@ color: #FAFAFF;
   .section-title1 {
     text-align: center;
     font-size: 19px;
+    
   }
 
 
@@ -573,6 +589,7 @@ color: #FAFAFF;
   }
   .about__img img {
     width: 374px;
+    object-fit: contain;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
@@ -599,6 +616,7 @@ color: #FAFAFF;
   .home__title {
     font-size: 4rem;
     margin-right: 26rem;
+    padding-bottom: 34vh;
     transform: rotate(90);
     color: var(--white-color);
     text-shadow: 0 20px 25px rgb(0 0 0 / 50%);
@@ -614,6 +632,7 @@ color: #FAFAFF;
   .home__title {
     font-size: 4rem;
     margin-right: 26rem;
+    padding-bottom: 15vh;
     transform: rotate(90);
     color: var(--white-color);
 }
