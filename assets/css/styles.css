@@ -6,7 +6,7 @@
   --font-medium: 500;
 }
 
-/*===== Colors =====*/
+/*===== CONFIG ROOT =====*/
 :root {
   --first-color: #202925;
   --white-color: #FAFAFF;
@@ -14,13 +14,16 @@
   --text-color: #697477;
 }
 
-/*===== Typo =====*/
 :root {
   --body-font: "Montserrat", sans-serif;
   --big-font-size: 6.25rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: .938rem;
   --small-font-size: .813rem;
+
+/*===== END =====*/
+
+/*===== MEDIA QUERIES =====*/
 }
 @media screen and (min-width: 768px) {
   :root {
@@ -248,6 +251,7 @@ color: #FAFAFF;
   text-align: center;
 }
 .about__img {
+  
   display: flex;
   justify-content: center;
   padding-top: 1rem;
@@ -258,9 +262,8 @@ color: #FAFAFF;
   overflow: hidden;
 }
 .about__img img {
-  height: 259px;
-  margin-top: -50px;
-  margin-top: -43px;
+  height: 266px;
+  margin-top: -40px;
 
 }
 .about__subtitle {
@@ -512,6 +515,13 @@ color: #FAFAFF;
     margin-bottom: 3rem;
     font-size: 48px;
   }
+
+  .section-title1 {
+    text-align: center;
+    font-size: 19px;
+  }
+
+
   .section-title::after {
     width: 64px;
     top: 100%;
@@ -562,7 +572,7 @@ color: #FAFAFF;
     height: 200px;
   }
   .about__img img {
-    width: 165px;
+    width: 374px;
   }
   .skills__container {
     grid-template-columns: repeat(2, 1fr);
