@@ -237,6 +237,8 @@ color: #FAFAFF;
       writing-mode: vertical-lr;
   transform: rotate(-180deg);
   color: var(--white-color);
+  margin-bottom: 10rem;
+    margin-left: 24rem;
 }
 .home__img {
   position: absolute;
