@@ -47,6 +47,7 @@
 /*===== BASE =====*/
 *, ::before, ::after {
   box-sizing: border-box;
+  
 }
 
 html {
@@ -321,6 +322,7 @@ color: #FAFAFF;
 }
 .portfolio__img img {
   border-radius: 0.5rem;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 .portfolio__img:hover .portfolio__link {
   bottom: 0;
