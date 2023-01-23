@@ -83,7 +83,8 @@ a {
 
 img {
   max-width: 100%;
-  height: auto;
+  height: 155px;
+  object-fit: cover;
   display: block;
 }
 
